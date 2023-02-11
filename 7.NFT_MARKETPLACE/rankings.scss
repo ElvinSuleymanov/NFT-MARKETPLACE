@@ -1,0 +1,196 @@
+
+
+.section_rankings {
+.rankings_intro {
+    color:#fff;
+   padding:80px 9%;
+    h1 {
+        font-size: 51px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 22px;
+    }
+}
+.rankings_top {
+    padding:0px 9%;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+        .column_rankings {
+            text-align: center;
+            color:#fff;
+            padding:15px;
+            flex:1;
+            font-size: 22px;
+          &:not(:first-child) {
+            color:#858584;
+          }
+            &:first-child {
+                border-bottom: 2px solid #858584;
+            }
+        
+    }
+}
+.rankings_container {
+   padding:0px 9%;
+    color:#fff;
+    .rank_properties {
+     margin-bottom: 20px;
+     font-size: 16px;
+     color:#858584;
+     border:1px solid #858584;
+     border-radius: 20px;
+     padding-top:13px;
+     padding-bottom: 13px;
+     padding-right: 8%;
+     padding-left: 25px;
+   
+     .rank_properties_left {
+        flex:50%;
+     }
+     .rank_properties_right {
+        flex:50%;
+        justify-content: space-between;
+        display: flex;
+     }
+     
+    }
+.user_rank {
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-top:13px;
+     padding-bottom: 13px;
+     padding-right: 8%;
+     padding-left: 25px;
+    display: flex;
+    align-items: center;
+
+    .user_rank_left {
+        display: flex;
+        align-items: center;
+        flex:50%;
+        span:nth-child(1) {
+            font-size:13px !important;
+            margin-right: 10px !important;
+        }
+        img {
+            width: 60px;
+
+        }
+        .user_name {
+            font-size: 22px;
+            font-family: 'Work Sans';
+            font-weight:600;
+            margin-left: 20px;
+        }
+    }
+    .user_rank_right {
+      display: flex;
+      justify-content: space-between;
+      flex: 50%;
+      font-size: 16px;
+      align-items: center;
+      .rank_change {
+          font-family: 'Space Mono';
+          color:#00AC4F;
+      }
+      .rank_sold {
+        font-family: 'Space Mono';
+      }
+      .rank_volume {
+        font-family: 'Space Mono';
+
+      }
+    }
+}
+
+}
+
+}
+
+@media(max-width:835px) {
+   
+    .column_rankings {
+        font-size: 16px !important;
+    }
+      .rank_propertie:nth-child(2) {
+        display: none ; 
+      }
+      .rank_sold {
+        display: none;
+      }
+   
+        .rank_properties_right {
+
+            flex:10% !important
+    }
+      .user_name {
+        margin-left: 10px !important;
+        font-size: 15px !important;
+      }
+      .user_rank_left {
+        img {
+            width: 24px !important;
+        }
+        span:first-child {
+            background-color: transparent !important ;
+            padding: 0 !important;
+        }
+      }
+      .user_rank {
+        padding-left: 10px !important;
+      }
+      .rank_volume {
+        font-size: 12px;
+      }
+      .user_rank_right {
+        flex:10% !important
+      }
+}
+@media(max-width:376px) {
+    .user_rank {
+        padding-right: 10px !important;
+    }
+    .column_rankings {
+        font-size: 16px !important;
+    }
+      .rank_propertie:nth-child(2) {
+        display: none ; 
+      }
+      .rank_sold {
+        display: none;
+      }
+      .rank_change {
+        display: none; 
+      }
+      .rank_propertie:nth-child(1) {
+        display: none;
+      }
+    .rank_properties_right {
+        flex:10% !important
+    }
+      .user_name {
+        margin-left: 10px !important;
+        font-size: 15px !important;
+      }
+      .user_rank_left {
+        img {
+            width: 24px !important;
+        }
+        span:first-child {
+            background-color: transparent !important ;
+            padding: 0 !important;
+        }
+      }
+      .user_rank {
+        padding-left: 10px !important;
+      }
+      .rank_volume {
+        font-size: 12px;
+      }
+      .user_rank_right {
+        flex:10% !important
+      }
+}

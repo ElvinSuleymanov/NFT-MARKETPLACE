@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+header nav .right_nav ul {
+  font-size: 1.6rem;
+}
+
+section {
+  padding: 0;
+  color: #fff;
+}
+section .section_container {
+  display: flex;
+}
+section .section_container .section_container_right {
+  width: 52%;
+  padding: 80px 70px 80px 40px;
+}
+section .section_container .section_container_right h1 {
+  font-size: 5.6rem;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+section .section_container .section_container_right .section_container_right_paragraph {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  max-width: 50rem;
+  line-height: 37px;
+  font-size: 25px;
+}
+section .section_container .section_container_right .section_container_form {
+  display: flex;
+  flex-direction: column;
+}
+section .section_container .section_container_right .section_container_form .btn {
+  width: 350px;
+  border-radius: 20px;
+  padding: 14px 50px;
+  text-align: center;
+  font-size: 13px;
+}
+section .section_container .section_container_right .section_container_form div {
+  position: relative;
+}
+section .section_container .section_container_right .section_container_form div input {
+  padding: 15px 20px 15px 50px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  width: 350px;
+}
+section .section_container .section_container_right .section_container_form div input::-moz-placeholder {
+  color: black;
+  font-family: "Work Sans";
+}
+section .section_container .section_container_right .section_container_form div input::placeholder {
+  color: black;
+  font-family: "Work Sans";
+}
+section .section_container .section_container_right .section_container_form div input:focus {
+  outline: none;
+}
+section .section_container .section_container_right .section_container_form div i {
+  position: absolute;
+  color: #BDBDBD;
+  z-index: 100;
+  top: 15px;
+  left: 20px;
+  font-size: 15px;
+}
+section .section_container .section_container_left {
+  width: 48%;
+  background: url(images/Image\ Placeholder\ \(3\).png);
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,23 @@
+@media (max-width:376px) {
+    .section_container {
+        flex-direction: column;
+    }
+    section {
+        padding:0px !important
+    }
+    .section_container_right {
+        padding:30px !important;
+        width: 100% !important;
+    }
+    .section_container_left {
+        height: 235px;
+        width: 100% !important;
+    }
+    .section_container_right div input {
+        width: 100% !important;
+    }
+    .section_container_right .btn {
+        width: 100% !important; 
+    }
+    
+}

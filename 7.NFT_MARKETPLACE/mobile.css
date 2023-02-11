@@ -1,0 +1,175 @@
+@media (max-width:376px) {
+    nav {
+        padding-bottom: 0px !important;
+    }
+    header {
+        padding: 30px !important;
+    }
+    section {
+        padding:30px !important;    
+    }
+section .gallery .nft_card .nft_pic {
+    width: 316px;
+}
+    .header_section {
+        display: none !important;
+    }
+    .nft_card:nth-child(2) {
+       display: none !important;
+    }
+    .nft_card:nth-child(3) {
+        display: none !important;
+    }
+   .creators {
+    padding: 30px;
+   }
+   .btn_transparent {
+    display: none;
+   }
+   .btn_transparent_last {
+    display: block;
+    
+    padding:19px 84px;
+    border-radius: 20px;
+    color:#fff;
+    border:#A259FF 4px solid;
+
+}
+.btn_transparent_last i {
+    color:#A259FF;
+    margin-right: 10px;
+}
+
+   .creator_card {
+    margin-right: 0px !important;
+    width: 315px;
+   }
+
+   footer {
+    padding:30px;
+   }
+   .footer_form {
+    flex-direction: column;
+   }
+   .footer_form input {
+    border-radius: 20px;
+   }
+   .footer_form .btn {
+    border-radius: 20px;
+   }
+   .nft_examples {
+    padding: 30px;
+   }
+   .nft_examples .nft_examples_container .nft_example img {
+    width:315px
+   }
+   .categories {
+    padding: 18px;
+   }
+   .section_timer .surface .surface_in {
+    padding: 30px;
+   }
+   .section_timer .surface {
+    flex-direction:column;
+
+   }
+   .section_timer .surface .timer {
+    padding: 30px;
+    margin-right: 0;
+    margin-bottom: 0;
+   width: 100%;
+   }
+   .section_timer .surface .surface_in .btn_white {
+    display: none;
+   }
+   /* important */
+
+.section_timer .surface {
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 30px;
+}
+.section_timer .surface .surface_in {
+    padding: 0;
+}
+ .btn_white_hidden {
+    display: block ;
+    background-color:white ;
+    border-radius: 20px;
+    padding: 19px 112px;
+    margin-top: 30px;
+}
+
+   .section_timer .surface .surface_in p {
+    font-size: 38px;
+    
+   }
+   .section_timer .surface  .timer .time div {
+    margin-right: 10px;
+   }
+   .section_timer {
+    background-size: cover;height: 590px;
+    
+   }
+
+   .properties .properties_container {
+    flex-direction: column;
+   }
+   .properties .properties_container .propertie {
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+    display: flex;
+    padding:28px 20px;
+    justify-content: space-between;
+   }
+   .properties .properties_info h1 {
+    font-size:38px ;
+   }
+   .properties .properties_container .propertie .propertie_paragraph {
+    font-size:12px !important;
+    width: 155px;
+   }
+   .properties .properties_container .propertie h1 {
+    font-size: 16px !important;
+   }
+   .properties .properties_container .propertie .propertie_image img {
+    width: 105px;
+   }
+   .properties {
+    padding: 30px;
+   
+   }
+   .offer {
+    padding: 30px;
+   }
+   .offer .offer_container {
+    background: transparent;
+    padding: 0;
+   }
+   .offer .offer_container .offer_container_right .offer_form {
+    align-items: center;
+   }
+   .offer .offer_container .offer_container_right .offer_form .btn {
+    margin-left: 0px;
+    width: 100%;
+   }
+   .offer .offer_container .offer_container_right .offer_form input {
+    width: 100%;
+   
+   }
+   .offer .offer_container .offer_container_left {
+    margin-right: 0;
+    margin-bottom: 30px;
+   }
+   .offer .offer_container .offer_container_left img {
+    width: 100%;
+   }
+   footer .footer_form .btn {
+    margin-left: 0 !important;
+    font-size: 15px;
+    
+   }
+   footer .footer_form input {
+    margin-bottom:15px ;
+   }
+}

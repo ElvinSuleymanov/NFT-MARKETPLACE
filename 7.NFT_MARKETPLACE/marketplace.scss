@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+header {
+    nav {
+        .right_nav {
+            ul {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+section {
+    padding: 0;
+    color:#fff;
+    
+    .section_container {
+        display: flex;
+        .section_container_right {
+            width: 52%;
+            padding:80px  70px 80px 40px;
+            .connection_container {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                .connection {
+                    background-color: #3B3B3B;
+                    display: flex;
+                    align-items: center;
+                    width: 350px;
+                    padding:21px 20px 21px 40px;
+                    border-radius: 20px;
+                    margin-bottom: 20px;
+                    h2 {
+                        font-size: 22px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+            h1 {
+                font-size: 5.6rem;
+                margin-left: 0px;
+                margin-bottom: 20px;
+            }
+            .section_container_right_paragraph {
+                font-size: 2.2rem;
+                margin-bottom: 40px;
+                width: 50rem;
+                line-height: 37px;
+                font-size: 25px;
+            }
+            
+        }
+        .section_container_left {
+            width: 48%;
+            background:url(images/pointpistol.png);
+            // img {
+            //     width: 100%;
+            //     height: 695px;
+            // }
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+
+@media (max-width:376px) {
+    .connection {
+        width: 100% !important;
+    }
+    h2 {
+     font-size: 17px !important;
+    }
+}
